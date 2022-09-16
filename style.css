@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(56, 48, 48);
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active){
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+#container{
+    width: 99%;
+    margin: 0px auto;
+    border: 2px solid #919191;
+    background-color: #C4C4C4;
+}
+
+#header{
+    font-size: 13pt;
+    margin-right: 400px;
+    width: 50%;
+    float: right;
+    height: 100px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+#logo-arsip-container{
+    float: left;
+    width: 6%;
+    height: 80%;
+    padding: 8px;
+}
+
+#logo-arsip{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFFFFF;
+}
+
+#nama-alamat-arsip-container{
+    float: left;
+    width: 90%;
+    padding: 10px;
+}
+
+.nama-alamat-arsip{
+    float: left;
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+}
+
+#header2{
+    width: 100%;
+    height: 32px;
+    background-color: #ffffff;
+    color: #FFFFFF;
+}
+
+#nama-user{
+    float: left;
+    color: #EEEEEE;
+    padding: 6px;
+}
+
+#sidebar{
+    
+    font-size: 10pt;
+    float: left;
+    width: 15.8%;
+    height: 660px;
+    border: 2px solid #1a1818;
+    
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+#sidebar a:link, #sidebar a:visited{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 6px;
+}
+
+#sidebar a:hover{
+    background-color: #5aaee6;
+}
+
+.label-navigasi{
+    background-color: #ffffff;
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    /* font-weight: bold; */
+    font-size: 10pt;
+}
+
+.About {
+    font-size: 15pt;
+    margin: 20px 40px;
+}
+
+#content-container{
+    float: left;
+    width: 83.8%;
+    background-color: #FFFFFF;
+}
+
+#footer {
+    width: 99.4%;
+    height: 20px;
+    clear: both;
+    text-align: center;
+    padding: 4px;
+    background-color: #5C3701;
+    color: #FFFFFF;
+}
+
+#label-page{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+    border: 2px solid #C4C4C4;
+    padding: 4px;
+    width: 97.9%;
+}
+
+#content{
+    float: left;
+    width: 96.8%;
+    min-height: 454px;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+#beranda-judul{
+    text-align: center;
+}
+
+#beranda-konten{
+    text-align: center;
+    padding-top: 140px;
+    color: red;
+}
+
+.tombol{
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #dbdbdb;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #01597E;
+    color: black;
+}
+.tombol1{
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #ec2929;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #01597E;
+    color: black;
+}
+.tombol2{
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #ecc130;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #01597E;
+    color: black;
+}
+.tombol3{
+    border-radius: 4px;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #4633f0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid #01597E;
+    color: black;
+}
+
+#tombol-tambah-container{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#tombol-tambah-container a:hover{
+    background-color: #C4C4C4;
+}
+
+#tabel-tampil{
+    border: 1px solid #C4C4C4;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#tabel-tampil tr:nth-child(odd){
+    background-color: #F1F1F1;
+}
+
+#tabel-tampil tr th{
+    background-color: #0088f7;
+    color: #FFFFFF;
+    padding: 4px;
+    text-align: left;
+}
+
+#tabel-tampil td{
+    padding: 4px;
+}
+
+#label-tampil-no{
+    width: 30px;
+}
+
+#label-opsi{
+    width: 158px;
+    font-weight: bold;
+}
+
+#label-opsi2{
+    width: 82px;
+    font-weight: bold;
+}
+
+#label-opsi3{
+    width: 166px;
+    font-weight: bold;
+}
+
+.tombol-opsi-container{
+    float: left;
+}
+
+/* .tombol-opsi-container a:hover{
+    background-color: #ffffff;
+} */
+
+#tabel-input{
+    width: 100%;
+}
+
+.label-formulir{
+    width: 12%;
+    height: 36px;
+    margin: 20px;
+}
+
+.isian-formulir{
+    width: 80%;
+    padding: 4px;
+    width: 99.8%;
+}
+
+.isian-formulir2{
+    width: 78%;
+    padding: 4px;
+    width: 20%;
+}
+
+.label-formulir2{
+    width: 100%;
+    height: 26px;
+    margin: 20px;
+    padding-left: 16px;
+    font-weight: bold;
+}
+
+.isian-formulir-border{
+    border: 1px solid #C4C4C4;
+}
+
+.warna-formulir-disabled{
+    background-color: #F1F1F1;
+}
